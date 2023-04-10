@@ -1,0 +1,121 @@
+body {
+    background-color: aquamarine;
+}
+div  {
+    width: 80%;
+    margin: auto;
+}
+.top-menu {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+.top-menu a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%;
+}
+.top-menu a:hover {
+    background-color: #000;
+}
+.top-menu a.active {
+    background-color: #04AA6D;
+}
+.article-image {
+    max-width: 100%;
+}
+.row1 {
+    display: flex;
+}
+.row2 {
+    display: flex;
+}
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+img {
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
+input {
+    border: 1px solid black;
+}
+select {
+    border: 1px solid black;
+}
+textarea {
+    border: 1px solid black;
+}
+button {
+    border: 1px solid black;
+    color: black;
+}
+.legend {
+    border: 1px solid black;
+    background-color: rgb(241, 160, 150);
+    color: black;
+}
+.form {
+    background-color: gray;
+}
+.form-center {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.firstName {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    background-color: rgb(241, 160, 150);
+    font-weight: bold;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.lastName {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    background-color: rgb(241, 160, 150);
+    font-weight: bold;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.comments {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    background-color: rgb(241, 160, 150);
+    font-weight: bold;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.checkbox {
+    justify-content: center;
+    text-align: center;
+    color: black;
+    background-color: rgb(241, 160, 150);
+    font-weight: bold;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.button {
+    justify-content: center;
+    text-align: center;
+    color: black;
+    background-color: rgb(241, 160, 150);
+    font-weight: bold;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}

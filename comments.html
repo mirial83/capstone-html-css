@@ -2,6 +2,7 @@
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title>Pugs</title>
 </head>
 <body>
@@ -14,8 +15,33 @@
     </div>
 <!-- HTML Form with appropriate labels -->
     <!-- 1 fieldset titling the form with a legend -->
+    <div class="form-center"><form action="/form-handling-url" method="post">
+        <fieldset>
+            <legend>Comments</legend>
     <!-- 3 inputs -->
         <!-- 2 text of first and last names -->
-        <!-- 1 checkbox re public post acknowledgement and no personal information in comment -->
+            <div class="firstName">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="first_name">
+            </div>
+            <div class="lastName">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="last_name">
+            </div>
     <!-- 1 text area for comments -->
+            <div class="comments">
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+            <!-- 1 checkbox re public post acknowledgement and no personal information in comment -->
+            <div class="checkbox">
+                <input type="checkbox" id="acknowledgement" name="ackno" value="yes">
+                <label for="acknowledgement">I acknowledge that this comment can be used publicly and that there are no personal identifiers or information in my comment.</label>
+            </div>
     <!-- 1 button to submit -->
+            <div class="button">
+                <button type="submit">Submit</button>
+            </div>               
+        </fieldset>
+    </form>
+    </div>
